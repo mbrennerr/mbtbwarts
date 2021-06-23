@@ -11,7 +11,7 @@
 html {
   width: 100vw;
   height: 100%;
-  background: var(--background-color);
+  /* background: var(--background-color); */
 }
 
 body {
@@ -57,21 +57,21 @@ body {
 }
 
 .main {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: url("images/hogwarts.jpg");
-  background-size: 150% 50%;
-  background-repeat: no-repeat;
-  animation: animateImage 35s ease 0s infinite alternate forwards;
+  background: url("images/backgroundmain2.png");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  animation: animateImage 20s ease 0s infinite alternate forwards;
   transition: background 5s ease-in-out;
 }
 
 #evaluation-form {
   display: flex;
   width: 100%;
-  height: 98%;
   flex-direction: column;
   box-shadow: 0 10px 5px rgba(0, 0, 0, 0.25);
   padding: 15px;
@@ -204,7 +204,7 @@ body {
 
 footer {
   width: 100%;
-  height: 100%;
+  height: 100px;
   text-align: center;
   padding: 5px;
   background-color: rgb(20, 20, 20);

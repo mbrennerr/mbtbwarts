@@ -74,6 +74,7 @@ function getInformation(event) {
   checkColor(house.value);
   changeBackground(house.value);
   formUser.style.height = '50%'
+  formUser.style.width = '20%'
   formUser.innerHTML = '';
   formUser.innerHTML += (`Nome: ${name.value} ${lastname.value} <br>`);
   formUser.innerHTML += (`Email: ${email.value} <br>`);
