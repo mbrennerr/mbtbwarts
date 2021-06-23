@@ -73,8 +73,8 @@ function getInformation(event) {
   const rate = checkNameFromInputs(inputs, 'rate');
   checkColor(house.value);
   changeBackground(house.value);
-  formUser.style.height = '50%'
-  formUser.style.width = '20%'
+  // formUser.style.height = '250px'
+  formUser.style.width = '400px'
   formUser.innerHTML = '';
   formUser.innerHTML += (`Nome: ${name.value} ${lastname.value} <br>`);
   formUser.innerHTML += (`Email: ${email.value} <br>`);
