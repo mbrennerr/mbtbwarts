@@ -55,10 +55,10 @@ function checkColor(houseColor) {
 
 
 function changeBackground(houseColor) {
-if (houseColor === 'Gitnória')  backgroundChanger.style.background = 'url("/images/gryffindor.jpg")'
-if (houseColor === 'Reactpuff')  backgroundChanger.style.background = 'url("/images/huflepuff2.jpg")'
-if (houseColor === 'Corvinode')  backgroundChanger.style.background = 'url("/images/ravenclaw.jpg")'
-if (houseColor === 'Pytherina')  backgroundChanger.style.background = 'url("/images/slytherin.jpg")'
+if (houseColor === 'Gitnória')  backgroundChanger.style.background = 'url("images/gryffindor.jpg")'
+if (houseColor === 'Reactpuff')  backgroundChanger.style.background = 'url("images/huflepuff2.jpg")'
+if (houseColor === 'Corvinode')  backgroundChanger.style.background = 'url("images/ravenclaw.jpg")'
+if (houseColor === 'Pytherina')  backgroundChanger.style.background = 'url("images/slytherin.jpg")'
 }
 
 function getInformation(event) {

@@ -61,7 +61,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: url("/images/hogwarts.jpg");
+  background: url("images/hogwarts.jpg");
   background-size: 150% 50%;
   background-repeat: no-repeat;
   animation: animateImage 35s ease 0s infinite alternate forwards;
