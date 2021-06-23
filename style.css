@@ -262,7 +262,7 @@ footer {
     border-radius: 25px;
     background: rgba(225, 225, 225, 0.5);
     transition: background 2s ease;
-    transition: width 2s ease;
+    /* transition: width 2s ease; */
   }
 
   #trybewarts-forms-logo {
